@@ -4,8 +4,8 @@
 # Para jogar: Substitua o ponto (.) na posição escolhida
 
    1   2   3
-A  . | ❌ | ⚫
+A  ❌ | ❌ | ⚫
   ---+---+---
-B  ❌ | ❌ | .
+B  . | ❌ | .
   ---+---+---
 C  . | ⚫ | .
