@@ -93,8 +93,6 @@ git push origin main
 ### Observações
 Jogada estabelece vantagem tática significativa. Próxima movimentação do adversário determinará estratégia subsequente.
 
-// ...existing code...
-
 ---
 
 ## Jogada 3 - 16/08/2025
