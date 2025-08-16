@@ -1,6 +1,6 @@
 # Estratégia do Felipe (⚫)
 
-## Jogada 1 - [Data da Jogada]
+## Jogada 1 - 16/08/2025
 
 ### Posição Escolhida
 A3 (Canto superior direito)
@@ -32,7 +32,7 @@ C  . | . | .
 ```bash
 git checkout -b jogada-felipe-1
 # [editar arquivo]
-git add learning-git.txt
+git add RPA/learning-git.txt RPA/docs/estrategias/felipe-estrategia.md
 git commit -m "feat: jogada Felipe - posição A3 (Canto superior direito)"
 git push origin jogada-felipe-1
 ```
