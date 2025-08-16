@@ -112,6 +112,14 @@ C  . | ⚫ | .
 ```
 
 ### Estado do Tabuleiro Depois
+```
+   1   2   3
+A  ❌| ❌ | ⚫
+  ---+---+---
+B  . | ❌ | .
+  ---+---+---
+C  . | ⚫ | .
+```
 
 
 ### Comandos Git Utilizados
