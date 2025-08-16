@@ -1,0 +1,17 @@
+# Arquivos temporários
+*.tmp
+*.temp
+*.log
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos do editor
+.vscode/settings.json
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*~
