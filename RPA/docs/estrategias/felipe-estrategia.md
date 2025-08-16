@@ -3,24 +3,29 @@
 ## Jogada 1 - [Data da Jogada]
 
 ### Posição Escolhida
-[A ser preenchida]
+A3 (Canto superior direito)
 
 ### Estratégia
-[Descrever o raciocínio por trás da jogada]
+Escolhi o canto superior como uma estratégia de defesa
 
 ### Estado do Tabuleiro Antes
 ```
    1   2   3
 A  . | . | .
   ---+---+---
-B  . | . | .
+B  . | ❌ | .
   ---+---+---
 C  . | . | .
 ```
 
 ### Estado do Tabuleiro Depois
 ```
-[A ser preenchido após a jogada]
+   1   2   3
+A  . | . | ⚫
+  ---+---+---
+B  . | ❌ | .
+  ---+---+---
+C  . | . | .
 ```
 
 ### Comandos Git Utilizados
@@ -28,7 +33,7 @@ C  . | . | .
 git checkout -b jogada-felipe-1
 # [editar arquivo]
 git add learning-git.txt
-git commit -m "feat: jogada Felipe - posição [posição]"
+git commit -m "feat: jogada Felipe - posição A3 (Canto superior direito)"
 git push origin jogada-felipe-1
 ```
 
