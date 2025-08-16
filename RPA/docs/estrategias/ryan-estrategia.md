@@ -108,14 +108,19 @@ Jogada estabelece vantagem tática significativa. Próxima movimentação do adv
    1   2   3
 A  . | ❌ | ⚫
   ---+---+---
-B  ❌ | ❌ | .
+B  . | ❌ | .
   ---+---+---
 C  . | ⚫ | .
 ```
 
 ### Estado do Tabuleiro Depois
 ```
-[Tabuleiro após sua jogada]
+  1   2   3
+A  . | ❌ | ⚫
+  ---+---+---
+B  ❌ | ❌ | .
+  ---+---+---
+C  . | ⚫ | .
 ```
 
 ### Comandos Git Utilizados
