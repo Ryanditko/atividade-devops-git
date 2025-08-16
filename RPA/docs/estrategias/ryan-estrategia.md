@@ -93,11 +93,6 @@ git push origin master
 ### Observações
 Jogada estabelece vantagem tática significativa. Próxima movimentação do adversário determinará estratégia subsequente.
 
-<<<<<<< HEAD
-=======
----
-
->>>>>>> d71e9f6f8934c31bd3c55d49f621f1f650065389
 ## Jogada 3 - 16/08/2025
 
 ### Posição Escolhida
@@ -118,17 +113,10 @@ C  . | ⚫ | .
 
 ### Estado do Tabuleiro Depois
 ```
-<<<<<<< HEAD
    1   2   3
 A  ❌| ❌ | ⚫
   ---+---+---
 B  . | ❌ | .
-=======
-  1   2   3
-A  . | ❌ | ⚫
-  ---+---+---
-B  ❌ | ❌ | .
->>>>>>> d71e9f6f8934c31bd3c55d49f621f1f650065389
   ---+---+---
 C  . | ⚫ | .
 ```
