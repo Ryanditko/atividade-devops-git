@@ -82,7 +82,7 @@ C  . | . | .
 ```bash
 git add learning-git.txt
 git commit -m "feat: jogada Ryan 2 - posição A2"
-git push origin main
+git push origin master
 ```
 
 ### Análise Técnica
@@ -93,3 +93,40 @@ git push origin main
 ### Observações
 Jogada estabelece vantagem tática significativa. Próxima movimentação do adversário determinará estratégia subsequente.
 
+## Jogada 3 - 16/08/2025
+
+### Posição Escolhida
+[Informar a posição escolhida após verificar learning-git.txt]
+
+### Estratégia
+[Análise da jogada após Felipe ter bloqueado C2]
+
+### Estado do Tabuleiro Antes
+```
+   1   2   3
+A  . | ❌ | ⚫
+  ---+---+---
+B  ❌ | ❌ | .
+  ---+---+---
+C  . | ⚫ | .
+```
+
+### Estado do Tabuleiro Depois
+
+
+### Comandos Git Utilizados
+```bash
+git checkout -b jogada-ryan-3
+git add learning-git.txt docs/estrategias/ryan-estrategia.md
+git commit -m "feat: jogada Ryan 3 - posição [B1]"
+git push origin jogada-ryan-3
+git checkout master
+git merge jogada-ryan-3
+git push origin master
+```
+
+### Análise Técnica
+possivelmente a proxima jogada define o jogo...
+
+### Observações
+aguardo o proximo movimento de felipe
