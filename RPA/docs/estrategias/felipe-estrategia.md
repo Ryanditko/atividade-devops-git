@@ -81,3 +81,45 @@ git push origin jogada-felipe-2
 
 ### Observações
 [Comentários adicionais sobre a jogada]
+
+---
+
+## Jogada 3 - 16/08/2025
+
+### Posição Escolhida
+C3 (canto inferior direito)
+
+### Estratégia
+Posição escolhida para bloquear a vitória do adversário pela diagonal
+
+### Estado do Tabuleiro Antes
+```
+   1   2   3
+A  ❌ | ❌ | ⚫
+  ---+---+---
+B  . | ❌ | .
+  ---+---+---
+C  . | ⚫ | .
+```
+
+### Estado do Tabuleiro Depois
+```
+   1   2   3
+A  ❌ | ❌ | ⚫
+  ---+---+---
+B  . | ❌ | .
+  ---+---+---
+C  . | ⚫ | ⚫
+```
+
+### Comandos Git Utilizados
+```bash
+git checkout -b jogada-felipe-3
+# [editar arquivo]
+git add RPA/learning-git.txt RPA/docs/estrategias/felipe-estrategia.md
+git commit -m "feat: jogada Felipe - posição C3 (canto inferior direito)"
+git push origin jogada-felipe-3
+```
+
+### Observações
+[Comentários adicionais sobre a jogada]
