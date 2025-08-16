@@ -122,9 +122,9 @@ C  . | ⚫ | .
 
 ### Comandos Git Utilizados
 ```bash
-git checkout -b jogada-ryan3-
+git checkout -b jogada-ryan-3
 git add learning-git.txt docs/estrategias/ryan-estrategia.md
-git commit -m "feat: jogada Ryan 3 - posição [X]"
+git commit -m "feat: jogada Ryan 3 - posição [B1]"
 git push origin jogada-ryan-3
 git checkout master
 git merge jogada-ryan-3
