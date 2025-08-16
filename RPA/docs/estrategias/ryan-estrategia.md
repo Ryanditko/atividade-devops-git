@@ -45,6 +45,51 @@ Esta é uma jogada clássica de abertura. Agora Felipe precisa decidir se vai pa
 
 ---
 
-## Jogada 2 - [Data da Jogada]
 
-[Template para próximas jogadas...]
+## Jogada 2 - 16/08/2025
+
+### Posição Escolhida
+A2 (Superior centro)
+
+### Estratégia
+Posicionamento em A2 visa:
+- Controle da linha superior A1-A2-A3
+- Domínio da coluna central A2-B2-C2
+- Criação de ameaça de vitória vertical
+- Bloqueio de possível expansão horizontal do adversário
+
+### Estado do Tabuleiro Antes
+```
+   1   2   3
+A  . | . | ⚫
+  ---+---+---
+B  . | ❌ | .
+  ---+---+---
+C  . | . | .
+```
+
+### Estado do Tabuleiro Depois
+```
+   1   2   3
+A  . | ❌ | ⚫
+  ---+---+---
+B  . | ❌ | .
+  ---+---+---
+C  . | . | .
+```
+
+### Comandos Git Utilizados
+```bash
+git add learning-git.txt
+git commit -m "feat: jogada Ryan 2 - posição A2"
+git push origin main
+```
+
+### Análise Técnica
+- Ameaça criada: Sequência A2-B2, necessita C2 para vitória
+- Pressão sobre adversário: Felipe deve bloquear C2 obrigatoriamente
+- Alternativas do adversário: Criar contra-ameaça para forçar defesa
+
+### Observações
+Jogada estabelece vantagem tática significativa. Próxima movimentação do adversário determinará estratégia subsequente.
+
