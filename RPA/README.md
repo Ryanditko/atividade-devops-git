@@ -44,7 +44,7 @@ Consulte `docs/comandos-git.md` para ver todos os comandos Git utilizados neste 
 
 - [x] Configuração inicial do repositório
 - [x] Estrutura básica do projeto
-- [ ] Primeira jogada
-- [ ] Implementação de branches
-- [ ] Merge requests
+- [x] Primeira jogada
+- [x] Implementação de branches
+- [x] Merge requests
 - [ ] Finalização do jogo
