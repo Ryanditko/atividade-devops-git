@@ -153,3 +153,34 @@ git commit -m "feat: jogada Ryan posição B2"
 git commit -m "docs: atualização do README com regras"
 git commit -m "fix: correção do tabuleiro após jogada inválida"
 ```
+
+### 22. Finalização do Projeto
+```bash
+# Commit final do jogo
+git add .
+git commit -m "feat: finalização do jogo - Felipe vencedor"
+git push origin master
+
+# Merge para main (versão de produção)
+git checkout main
+git merge master
+git push origin main
+
+# Tag da versão final
+git tag -a v1.0 -m "Jogo da velha finalizado - Felipe vencedor"
+git push origin v1.0
+```
+**Objetivo**: Finalizar e versionar o projeto completo.
+
+### 23. Comandos de Verificação Final
+```bash
+# Ver histórico completo
+git log --oneline --graph --all
+
+# Ver todas as branches
+git branch -a
+
+# Ver tags criadas
+git tag
+```
+**Objetivo**: Verificar o projeto finalizado.
