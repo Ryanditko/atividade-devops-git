@@ -1,4 +1,4 @@
-**# Histórico Completo das Jogadas
+## Histórico Completo das Jogadas
 
 ## Resumo do Jogo
 - **Jogadores**: Ryan (❌) vs Felipe (⚫)
