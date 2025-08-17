@@ -3,8 +3,8 @@
 ## Resumo do Jogo
 - **Jogadores**: Ryan (❌) vs Felipe (⚫)
 - **Data de Início**: 16/08/2025
-- **Status**: Em andamento
-- **Vencedor**: A ser determinado
+- **Status**: Finalizado
+- **Vencedor**: Felipe
 - **Repositório**: https://github.com/Ryanditko/atividade-devops-git
 
 ## Cronologia das Jogadas
@@ -40,9 +40,30 @@
 ### Jogada #5 - 16/08/2025
 - **Jogador**: Ryan
 - **Marca**: ❌
-- **Posição**: B1 (Centro esquerda)
+- **Posição**: A1 (Superior esquerda)
 - **Branch**: `jogada-ryan-3`
-- **Estratégia**: Nova ameaça na linha B (B1-B2, necessita B3)
+- **Estratégia**: Tentativa de fechar pela diagonal (A1-B2, necessita C3)
+
+### Jogada #6 - 16/08/2025
+- **Jogador**: Felipe
+- **Marca**: ⚫
+- **Posição**: C3 (Centro direita)
+- **Branch**: `jogada-felipe-3`
+- **Estratégia**: Bloqueio da diagonal
+
+### Jogada #7 - 16/08/2025
+- **Jogador**: Ryan
+- **Marca**: ❌
+- **Posição**: C1 (Inferior esquerda)
+- **Branch**: `jogada-ryan-4`
+- **Estratégia**: Bloqueio da linha C
+
+### Jogada #8 - 16/08/2025
+- **Jogador**: Felipe
+- **Marca**: ⚫
+- **Posição**: B2 (Centro esquerda)
+- **Branch**: `jogada-felipe-4`
+- **Estratégia**: Jogada final para vencer completando a coluna 3
 
 ## Estados do Tabuleiro
 
@@ -96,7 +117,7 @@ B  . | ❌ | .
 C  . | ⚫ | .
 ```
 
-### Estado Atual (Após Jogada #5 - Ryan A1 )
+### Após Jogada #5 - (Ryan A1 )
 ```
    1   2   3
 A  ❌ | ❌ | ⚫
@@ -104,6 +125,36 @@ A  ❌ | ❌ | ⚫
 B  . | ❌ | .
   ---+---+---
 C  . | ⚫ | .
+```
+
+### Após Jogada #6 - (Felipe C3 )
+```
+   1   2   3
+A  ❌ | ❌ | ⚫
+  ---+---+---
+B  . | ❌ | .
+  ---+---+---
+C  . | ⚫ | ⚫
+```
+
+### Após Jogada #7 - (Ryan C1 )
+```
+   1   2   3
+A  ❌ | ❌ | ⚫
+  ---+---+---
+B  . | ❌ | .
+  ---+---+---
+C  ❌ | ⚫ | ⚫
+```
+
+### Estado Final (Após Jogada #8 - (Felipe C2 ))
+```
+   1   2   3
+A  ❌ | ❌ | ⚫
+  ---+---+---
+B  . | ❌ | ⚫
+  ---+---+---
+C  ❌ | ⚫ | ⚫
 ```
 
 ## Análise Técnica Git
@@ -117,6 +168,9 @@ C  . | ⚫ | .
 - `jogada-felipe-2` - Segunda jogada do Felipe (C2)
 - `jogada-ryan-3` - Terceira jogada do Ryan (B1)
 - `docs-ryan-jogada-2` - Documentação posterior
+- `jogada-felipe-3` - Terceira jogada do Felipe (C3)
+- `jogada-ryan-4` - Quarta jogada do Ryan (C1)
+- `jogada-felipe-4` - Quarta jogada do Felipe
 
 ### Merges Realizados
 1. **Merge #1**: `jogada-ryan-1` → `master`
@@ -138,6 +192,18 @@ C  . | ⚫ | .
 5. **Merge #5**: `jogada-ryan-3` → `master`
    - Nova estratégia ofensiva
    - Conflitos: Pull necessário antes do push
+
+6. **Merge #6**: `jogada-felipe-3` → `master`
+   - Defesa obrigatória
+   - Conflitos: Não
+
+7. **Merge #7**: `jogada-ryan-4` → `master`
+   - Defesa obrigatória
+   - Conflitos: Não
+
+8. **Merge #8**: `jogada-felipe-4` → `master`
+   - Jogada final
+   - Conflitos: Não
 
 ### Comandos Git Destacados
 ```bash
@@ -162,11 +228,8 @@ git push origin master
 
 ## Análise Estratégica
 
-### Situação Atual do Jogo
-- **Ryan**: Possui ameaça ativa na linha B (B1-B2, necessita B3 para vitória)
-- **Felipe**: Deve bloquear B3 ou criar contra-ameaça
-- **Posições livres**: A1, B3, C1, C3
-- **Próxima jogada**: Felipe (crítica)
+### Situação Final do Jogo
+- **Felipe**: Vencedor usando estratégias defensivas
 
 ### Padrões Identificados
 1. **Ryan**: Estratégia agressiva, busca ameaças constantes
