@@ -1,6 +1,6 @@
 # Jogo da Velha — Utilizando GIT
 # Ryan: ❌ | Felipe: ⚫
-# Última jogada: Ryan - C1
+# Última jogada: Felipe - B3
 # Para jogar: Substitua o ponto (.) na posição escolhida
 
    1   2   3
