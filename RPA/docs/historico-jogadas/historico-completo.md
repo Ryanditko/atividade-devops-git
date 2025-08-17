@@ -61,7 +61,7 @@
 ### Jogada #8 - 16/08/2025
 - **Jogador**: Felipe
 - **Marca**: ⚫
-- **Posição**: B2 (Centro esquerda)
+- **Posição**: B3 (Centro esquerda)
 - **Branch**: `jogada-felipe-4`
 - **Estratégia**: Jogada final para vencer completando a coluna 3
 
@@ -147,7 +147,7 @@ B  . | ❌ | .
 C  ❌ | ⚫ | ⚫
 ```
 
-### Estado Final (Após Jogada #8 - (Felipe C2 ))
+### Estado Final (Após Jogada #8 - (Felipe B3 ))
 ```
    1   2   3
 A  ❌ | ❌ | ⚫
@@ -170,7 +170,7 @@ C  ❌ | ⚫ | ⚫
 - `docs-ryan-jogada-2` - Documentação posterior
 - `jogada-felipe-3` - Terceira jogada do Felipe (C3)
 - `jogada-ryan-4` - Quarta jogada do Ryan (C1)
-- `jogada-felipe-4` - Quarta jogada do Felipe
+- `jogada-felipe-4` - Quarta jogada do Felipe (B3)
 
 ### Merges Realizados
 1. **Merge #1**: `jogada-ryan-1` → `master`
