@@ -47,4 +47,4 @@ Consulte `docs/comandos-git.md` para ver todos os comandos Git utilizados neste 
 - [x] Primeira jogada
 - [x] Implementação de branches
 - [x] Merge requests
-- [ ] Finalização do jogo
+- [x] Finalização do jogo
