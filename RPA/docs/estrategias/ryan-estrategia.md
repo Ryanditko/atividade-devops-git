@@ -106,7 +106,7 @@ Jogada estabelece vantagem tática significativa. Próxima movimentação do adv
    1   2   3
 A  . | ❌ | ⚫
   ---+---+---
-B  ❌ | ❌ | .
+B  . | ❌ | .
   ---+---+---
 C  . | ⚫ | .
 ```
