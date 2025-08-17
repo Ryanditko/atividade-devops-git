@@ -19,7 +19,7 @@
 ### Jogada #2 - 16/08/2025
 - **Jogador**: Felipe
 - **Marca**: ⚫
-- **Posição**: A3 (Canto superior direito)
+- **Posição**: A3 (Superior direito)
 - **Branch**: `jogada-felipe-1`
 - **Estratégia**: Defesa em canto para múltiplas opções futuras
 
@@ -47,7 +47,7 @@
 ### Jogada #6 - 16/08/2025
 - **Jogador**: Felipe
 - **Marca**: ⚫
-- **Posição**: C3 (Centro direita)
+- **Posição**: C3 (Inferior direita)
 - **Branch**: `jogada-felipe-3`
 - **Estratégia**: Bloqueio da diagonal
 
@@ -61,7 +61,7 @@
 ### Jogada #8 - 16/08/2025
 - **Jogador**: Felipe
 - **Marca**: ⚫
-- **Posição**: B3 (Centro esquerda)
+- **Posição**: B3 (Centro direita)
 - **Branch**: `jogada-felipe-4`
 - **Estratégia**: Jogada final para vencer completando a coluna 3
 
