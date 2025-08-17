@@ -1,0 +1,15 @@
+# Jogo da Velha — Utilizando GIT
+# Ryan: ❌ | Felipe: ⚫
+# Última jogada: Ryan - C1
+# RESULTADO FINAL: FELIPE VENCEU! (Coluna 3: A3-B3-C3)
+
+   1   2   3
+A  ❌ | ❌ | ⚫
+  ---+---+---
+B  . | ❌ | ⚫
+  ---+---+---
+C  ❌ | ⚫ | ⚫
+
+# 🎉 PARABÉNS FELIPE! 🎉
+# Vitória na coluna 3: A3-B3-C3
+# Jogo finalizado em 16/08/2025
